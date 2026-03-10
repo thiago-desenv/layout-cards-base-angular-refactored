@@ -9,6 +9,7 @@ import { ClientInfosCardComponent } from './components/client-infos-card/client-
 import { CardItemComponent } from './components/card-item/card-item.component';
 import { CardLineComponent } from './components/card-line/card-line.component';
 import { CardTitleComponent } from './components/card-title/card-title.component';
+import { CardComponent } from './components/card/card.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { CardTitleComponent } from './components/card-title/card-title.component
     ClientInfosCardComponent,
     CardItemComponent,
     CardLineComponent,
-    CardTitleComponent
+    CardTitleComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule
